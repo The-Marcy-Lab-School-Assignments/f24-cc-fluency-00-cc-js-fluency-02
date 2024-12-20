@@ -8,6 +8,11 @@
 4. By the end of Code Challenge, **commit and push your changes up to Github**.
 5. Using the browser, verify that your solution is in your remote repo on Github.
 
+## Installing dependencies
+
+1. In the root directory, run the command `npm i`.
+2. Do `npm t` to check if the tests are working!
+
 ## Description of the Problem
 **Solve the following problems using higher order array methods**
 
@@ -56,7 +61,7 @@ getNames(users) //['Reuben O.', 'Laisha C', 'Anne H.','Steph S.','Carmen S']
 
 2. We want all of the celebrities. Return an array of only the `verified` users.
 ```js
-getVerfiedUsers(users) 
+getVerfiedUsers(users)
 /* returns this array:
 [
   { name: 'Laisha C',
@@ -77,7 +82,7 @@ getVerfiedUsers(users)
 
 3. Give me the folks who are struggling. Return an array of all of the users with less than 1000 `followers`.
 ```js
-lessThan1k(users) 
+lessThan1k(users)
 
 /* returns this array:
 [
@@ -124,7 +129,7 @@ searchUsername(users, "@passaic_papi")
 
 5. Who is most long-winded? Return the object with the longest bio.
 ```js
-longWinded(users) 
+longWinded(users)
 
 /* returns this array:
 [
@@ -141,7 +146,7 @@ longWinded(users)
 
 6. Return an array sorted by `follower` count, least to greatest.
 ```js
-follower(users) 
+follower(users)
 /* returns the follwoing array:
 [
   { name: 'Reuben O.',
@@ -177,4 +182,3 @@ follower(users)
 ]
 */
 ```
-
